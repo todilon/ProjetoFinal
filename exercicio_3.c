@@ -78,11 +78,6 @@ int main()
       vetor3[i3] = vetor2[i3];    
     }
 
-  /*  for(int i3 = 0; i3 < tamanho3; i3++)
-    {
-      vetor3[i3] = vetor2[i3];
-    }*/
-
     ordenaDecrescente(vetor3, tamanho3);
   
     printf("Primeira pilha crescente:\n");
@@ -97,7 +92,6 @@ int main()
     mostrarVetor(vetor3, tamanho3);
     printf("\n");
 	
-
   return 0;
 
 }
